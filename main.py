@@ -8,7 +8,7 @@ import string
 
 # Don't forget to comment each line in order to not forget everything.
 
-f = open('chatbot.txt','r',errors = 'ignore')
+f = open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/chatbot.txt','r',errors = 'ignore')
 
 raw=f.read()
 raw=raw.lower()
