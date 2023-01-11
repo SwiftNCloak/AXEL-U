@@ -59,7 +59,7 @@ def response(user_response):
 flag=True
 print("AXEL-U: My name is " + verLetter + verNum + ". Type 'bye' or 'end' for the chat to stop. I am still not as advanced as what I am supposed to be, but I'll be learning to improve myself more..")
 while(flag==True):
-    user_response = input()
+    user_response = input("> ")
     user_response=user_response.lower()
     if(user_response!='bye' or user_response!='end'):
         if(user_response=='thanks' or user_response=='thank you' or user_response=='thank u'):
