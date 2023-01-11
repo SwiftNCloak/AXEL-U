@@ -4,7 +4,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 import numpy as np
 import random
-import string 
+import string
+
+import pyttsx3
+engine = pyttsx3.init()
 
 # Don't forget to comment each line in order to not forget everything.
 
@@ -51,9 +54,13 @@ def response(user_response):
     req_tfidf = flat[-2]
     if(req_tfidf==0):
         robo_response=robo_response+"I apologize... I do not understand what you said. Could you repeat that for me?"
+        engine.say(robo_response)
+        engine.runAndWait()
         return robo_response
     else:
         robo_response = robo_response+sent_tokens[idx]
+        engine.say(robo_response)
+        engine.runAndWait()
         return robo_response
 
 flag=True
