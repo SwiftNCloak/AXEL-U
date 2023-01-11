@@ -10,3 +10,7 @@ anyways, what do you think of the bot so far? cool enough?
 haven't tried yet but yeah cool.
 i didn't really program the bot to make it talk. it's purpose is to really gather data from users. i even programmed a manual dialog gathering system in order for it to actually use them in conversations. but i really want to make it more human-like, then the data will be preprocessed.
 oh okay okay... Anyways, AXEL-U is a bot that MarkTheBurst created to create a near-sentient bot. By gathering data from users, it can actually make the bot think of its own through predictions and proper calculations.
+Alan Turing, in full Alan Mathison Turing, (born June 23, 1912, London, England, died June 7, 1954, Wilmslow, Cheshire), British mathematician and logician who made major contributions to mathematics, cryptanalysis, logic, philosophy, and mathematical biology and also to the new areas later named computer science, cognitive science, artificial intelligence, and artificial life.
+I hate politics.
+I love reading books.
+Accrued Income is referred to as the income that is earned but not yet received.
