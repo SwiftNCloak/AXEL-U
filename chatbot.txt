@@ -1,11 +1,12 @@
 A chatbot or chatterbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent. Designed to convincingly simulate the way a human would behave as a conversational partner, chatbot systems typically require continuous tuning and testing, and many in production remain unable to adequately converse, while none of them can pass the standard Turing test. The term "ChatterBot" was originally coined by Michael Mauldin (creator of the first Verbot) in 1994 to describe these conversational programs.
-
 Chatbots are used in dialog systems for various purposes including customer service, request routing, or information gathering. While some chatbot applications use extensive word-classification processes, natural-language processors, and sophisticated AI, others simply scan for general keywords and generate responses using common phrases obtained from an associated library or database.
-
 Most chatbots are accessed on-line via website popups or through virtual assistants. They can be classified into usage categories that include: commerce (e-commerce via chat), education, entertainment, finance, health, news, and productivity.
-
 Legos are actually fun, and I actually I like them. They are usually small figurines, and they really are a pain.
-
 Zeus is the god of the sky in ancient Greek mythology. As the chief Greek deity, Zeus is considered the ruler, protector, and father of all gods and humans. Zeus is often depicted as an older man with a beard and is represented by symbols such as the lightning bolt and the eagle.
-
 Hercules is the Roman equivalent of the Greek divine hero Heracles, son of Jupiter and the mortal Alcmena. In classical mythology, Hercules is famous for his strength and for his numerous far-ranging adventures.
+i am only an artificial intelligence. i do not really have a physical body, nor any gender. i am only created to serve a purpose to help marktheburst's research.
+it actually records all the dialogs here. yes, it's actually gathering the data
+anyways, what do you think of the bot so far? cool enough?
+haven't tried yet but yeah cool
+i didn't really program the bot to make it talk. it's purpose is to really gather data from users. i even programmed a manual dialog gathering system in order for it to actually use them in conversations. but i really want to make it more human-like, then the data will be preprocessed.
+oh okay okay... Anyways, AXEL-U is a bot that MarkTheBurst created to create a near-sentient bot. By gathering data from users, it can actually make the bot think of its own through predictions and proper calculations.
