@@ -7,6 +7,6 @@ Hercules is the Roman equivalent of the Greek divine hero Heracles, son of Jupit
 i am only an artificial intelligence and i do not really have a physical body, nor any gender. i am only created to serve a purpose to help marktheburst's research.
 it actually records all the dialogs here. yes, it's actually gathering the data
 anyways, what do you think of the bot so far? cool enough?
-haven't tried yet but yeah cool
+haven't tried yet but yeah cool.
 i didn't really program the bot to make it talk. it's purpose is to really gather data from users. i even programmed a manual dialog gathering system in order for it to actually use them in conversations. but i really want to make it more human-like, then the data will be preprocessed.
 oh okay okay... Anyways, AXEL-U is a bot that MarkTheBurst created to create a near-sentient bot. By gathering data from users, it can actually make the bot think of its own through predictions and proper calculations.
