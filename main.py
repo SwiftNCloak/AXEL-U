@@ -36,8 +36,8 @@ def LemNormalize(text):
 
 GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey", "hey there")
 GREETING_RESPONSES = ["hi", "hey", "hi there", "hello", "hey there", "well, hello there"]
+
 def greeting(sentence):
- 
     for word in sentence.split():
         if word.lower() in GREETING_INPUTS:
             return random.choice(GREETING_RESPONSES)
@@ -82,3 +82,5 @@ while(flag==True):
     else:
         flag=False
         print("AXEL-U: Bye! Thank you for talking!")
+        engine.say("Bye! Thank you for talking!")
+        engine.runAndWait()
