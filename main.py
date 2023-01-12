@@ -17,7 +17,7 @@ raw=f.read()
 raw=raw.lower()
 
 verLetter = 'A-'
-verNum = '002'
+verNum = '003'
 
 # nltk.download('punkt') # first time
 # nltk.download('wordnet') # first time
