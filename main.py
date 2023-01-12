@@ -68,9 +68,9 @@ def response(user_response):
 flag=True
 print("AXEL-U: My name is " + verLetter + verNum + ". Type 'bye' for the chat to stop. I am still not as advanced as what I am supposed to be, but I'll be learning to improve myself more..")
 
-responses.append(user_response)
 while(flag==True):
     user_response = input("> ")
+    responses.append(user_response)
     user_response=user_response.lower()
 
     with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/inputs.txt', 'a') as f:
