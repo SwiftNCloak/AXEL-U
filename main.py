@@ -73,9 +73,6 @@ while(flag==True):
     responses.append(user_response)
     user_response=user_response.lower()
 
-    with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/inputs.txt', 'a') as f:
-        for user_response in responses:
-            f.write('\n' + user_response)
     if(user_response!='bye'):
         if(user_response=='thanks' or user_response=='thank you' or user_response=='thank u'):
             flag=False
@@ -92,3 +89,7 @@ while(flag==True):
         print("AXEL-U: Bye! Thank you for talking!")
         engine.say("Bye! Thank you for talking!")
         engine.runAndWait()
+
+with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/inputs.txt', 'a') as f:
+    for user_response in responses:
+        f.write('\n' + user_response)
