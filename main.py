@@ -19,6 +19,8 @@ raw=raw.lower()
 verLetter = 'A-'
 verNum = '003'
 
+responses = []
+
 # nltk.download('punkt') # first time
 # nltk.download('wordnet') # first time
 # nltk.download('omw-1.4') # first time
@@ -65,9 +67,15 @@ def response(user_response):
 
 flag=True
 print("AXEL-U: My name is " + verLetter + verNum + ". Type 'bye' for the chat to stop. I am still not as advanced as what I am supposed to be, but I'll be learning to improve myself more..")
+
+responses.append(user_response)
 while(flag==True):
     user_response = input("> ")
     user_response=user_response.lower()
+
+    with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/inputs.txt', 'a') as f:
+        for user_response in responses:
+            f.write('\n' + user_response)
     if(user_response!='bye'):
         if(user_response=='thanks' or user_response=='thank you' or user_response=='thank u'):
             flag=False
