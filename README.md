@@ -23,3 +23,4 @@ Language of AXEL-U **will ONLY BE in English**.
 |    001    |    Working    |   - Chatbot actually works and speaks like a normal human, thanks to data given.
 | 002 | Working | - Gets dialogs from user inputs. Now implements Text-To-Speech.
 | 003 | Working | - Gets inputs though not properly working since the previous lines are still copied.
+| 004 | N/A | Coming Soon
