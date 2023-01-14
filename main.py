@@ -17,7 +17,7 @@ raw=f.read()
 raw=raw.lower()
 
 verLetter = 'A-'
-verNum = '003'
+verNum = '004'
 
 responses = []
 
@@ -70,12 +70,11 @@ print("AXEL-U: My name is " + verLetter + verNum + ". Type 'bye' for the chat to
 
 while(flag==True):
     user_response = input("> ")
-    responses.append(user_response)
     user_response=user_response.lower()
 
+    responses.append(user_response)
     with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/inputs.txt', 'a') as f:
-        for user_response in responses:
-            f.write('\n' + user_response)
+        f.write('\n' + user_response)
             
     if(user_response!='bye'):
         if(user_response=='thanks' or user_response=='thank you' or user_response=='thank u'):
