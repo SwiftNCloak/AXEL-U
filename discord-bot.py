@@ -21,7 +21,7 @@ async def on_ready():
 
     await client.change_presence(activity = discord.Activity(
         type = discord.ActivityType.watching,
-        name = f'{members} members'
+        name = f'#chat-system'
     ))
 
 client.run('MTA2Mzc0MTYxNDU4NzEzODA4OQ.GCDoRh.WVAXw9ecI82GE25f7SBuga06zvlAhd7sc-R938')
