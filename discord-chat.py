@@ -14,7 +14,7 @@ async def on_message(message):
 
 @client.event
 async def on_ready():
-    print('AXEL-U is now activated')
+    print('AXEL-U | Chat Mode is now activated')
 
     members = 0
     for guild in client.guilds:
@@ -22,7 +22,7 @@ async def on_ready():
 
     await client.change_presence(activity = discord.Activity(
         type = discord.ActivityType.watching,
-        name = f'CHAT SYSTEM TESTING'
+        name = f'#chat-system'
     ))
 
 client.run('MTA2Mzc0MTYxNDU4NzEzODA4OQ.GOpqYr.bRD6De03Z-gTKVacmys44NTgoi4ZgvR5UP789U')
