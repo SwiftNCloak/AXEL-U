@@ -25,3 +25,4 @@ Language of AXEL-U **will ONLY BE in English**.
 | 003 | Working | - Gets inputs though not properly working since the previous lines are still copied.
 | 004 | Working | - Minor bug in gathering responses have been fixed. 
 | | | - Discord-Bot (that chats as well while getting responses) is finally working.
+| 005 | Working | - Train.py somehow manages to generate its own sentence, though not clearly training yet.
