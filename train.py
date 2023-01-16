@@ -18,8 +18,6 @@ token =  ['<s>'] + nltk.word_tokenize(clean_text) + ['</s>'] + nltk.word_tokeniz
 lm.fit(train, vocab)
 
 generated_sentence = lm.generate(20)
-while len(generated_sentence) <= 20:
-    generated_sentence = lm.generate(20)
 
 with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/train-data.txt', 'a') as f:
         f.write(f'\n{generated_sentence}')
