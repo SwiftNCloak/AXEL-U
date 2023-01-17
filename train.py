@@ -20,6 +20,6 @@ lm.fit(train, vocab)
 generated_sentence = lm.generate(20)
 
 with open('C:/Users/Mark James/Desktop/COMSCI LABS/artificial-intelligence-lab/chatbot-1/AXEL-U/train-data.txt', 'a') as f:
-        f.write(f'\n{generated_sentence}')
+    f.write(f'\n{generated_sentence}')
 
-print(" ".join(generated_sentence))
+print('\n' + " ".join(generated_sentence) + '\n')
