@@ -17,7 +17,7 @@ raw=f.read()
 raw=raw.lower()
 
 verLetter = 'A-'
-verNum = '005'
+verNum = '006'
 
 responses = []
 
@@ -66,7 +66,7 @@ def response(user_response):
         return robo_response
 
 flag=True
-print("AXEL-U: My name is " + verLetter + verNum + ". Type 'bye' for the chat to stop. I am still not as advanced as what I am supposed to be, but I'll be learning to improve myself more..")
+print("AXEL-U: My name is " + verLetter + verNum + ". Type 'bye' for the chat to stop. I am still not as advanced as what I am supposed to be, but I'll be learning to improve myself more... I am improving to become better.")
 
 while(flag==True):
     user_response = input("> ")
